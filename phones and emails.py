@@ -3,6 +3,8 @@
 
 import pyperclip, re
 
+#comment to change for learning commit
+
 phoneRegex= re.compile(r'''(
     (\(?\+?\d{3}\)?)?      #czech or slovakian state number
     (\s)?                  #possible space
