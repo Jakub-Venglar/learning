@@ -9,7 +9,7 @@ phoneRegex= re.compile(r'''(
     (\d{9}|\d{3}\s?\d{3}\s?\d{3}|\d{3}\s?\d{2}\s?\d{2}\s?\d{2})     #different formats of the rest
     )''', re.VERBOSE)
 
-mailRegex = re.compile('''(
+mailRegex = re.compile(r'''(
     ([a-zA-Z0-9._%+-]+)     # username
     (@)                     #@ symbol
     ([a-zA-Z0-9.-]+)        #domain name
