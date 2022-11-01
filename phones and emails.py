@@ -4,7 +4,6 @@
 import pyperclip, re
 
 #comment to change for learning commit
-#and one more
 
 phoneRegex= re.compile(r'''(
     (\(?\+?\d{3}\)?)?      #czech or slovakian state number
